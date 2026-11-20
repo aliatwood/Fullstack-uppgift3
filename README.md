@@ -38,8 +38,8 @@ Följande HTTP-metoder används:
 - POST – lägger till en ny plats.
 - DELETE – tar bort en befintlig plats.
 
-##
-Obs! API:et är hostat på Render och kan behöva cirka 1 minut för att starta upp efter en period av inaktivitet. Därför kan det dröja innan platserna visas första gången du öppnar webbplatsen. Vänta en liten stund och ladda om sidan om platserna inte visas direkt.
+## OBS!
+API:et är hostat på Render och kan behöva cirka 1 minut för att starta upp efter en period av inaktivitet. Därför kan det dröja innan platserna visas första gången du öppnar webbplatsen. Vänta en liten stund och ladda om sidan om platserna inte visas direkt.
 
 ## Installation
 
