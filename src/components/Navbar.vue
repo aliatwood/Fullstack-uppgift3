@@ -16,35 +16,41 @@ import { RouterLink } from 'vue-router'
 
 <style scoped>
 nav{
-    background-color: #263D2B;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
-    align-items: center;
+  background-color: #263D2B;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  align-items: center;
 }
 
 .nav-links{
-    display: flex;
-    gap: 30px;
-    width: 60%;
-    justify-content: center;
+  display: flex;
+  gap: 30px;
+  width: 60%;
+  justify-content: center;
 }
 
 nav a{
-    color: #E8E2D2;
-    font-size: 1.5rem;
-    text-decoration: none;
+  color: #E8E2D2;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 nav a:hover{
-    color: #c0bbac;
-    box-shadow: 0 4px 12px rgba(226, 213, 65, 0.721);
+  color: #c0bbac;
+  box-shadow: 0 4px 12px rgba(226, 213, 65, 0.721);
 }
 
 img{
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+nav a.router-link-active{
+  color: #D6B85A;
+  border-bottom: 2px solid #D6B85A;
+  padding-bottom: 5px;
 }
 
 @media (max-width: 1023px){

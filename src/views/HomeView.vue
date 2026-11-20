@@ -16,60 +16,60 @@
 
 <style scoped>
 .hero-img{
-    max-width: 850px;
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    margin: 16px 0;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 850px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 16px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    max-width: 90%;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 h1{
-    text-align: center;
-    padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .hero-title{
-    text-align: center;
+  text-align: center;
 }
 
 .hero-paragraph{
-    max-width: 30em;
-    text-align: center;
-    font-size: 1.4rem;
+  max-width: 30em;
+  text-align: center;
+  font-size: 1.4rem;
 }
 
 .goto-btn{
-    padding: 10px;
-    cursor: pointer;
-    border: none;
-    background-color: #263D2B;
-    color: #E8E2D2;
-    border-radius: 6px;
-    text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #263D2B;
+  color: #E8E2D2;
+  border-radius: 6px;
+  text-decoration: none;
 }
 
 .goto-btn:hover{
-    background-color: #38553D;
+  background-color: #38553D;
 }
 
 @media (max-width: 1023px){

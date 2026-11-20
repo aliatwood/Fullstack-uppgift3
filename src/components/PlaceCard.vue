@@ -7,11 +7,11 @@ const emit = defineEmits(['delete'])
 
 <template>
     <div :class="['place-card', place.name.toLowerCase().replace('the ', '')]">
-        <h2>{{ place.name }}</h2>
-        <p>Realm: {{ place.realm }}</p>
-        <p>Population: {{ place.population }}</p>
-        <p>Safe: {{ place.safe }}</p>
-        <button @click="emit('delete', place.id)">Delete</button>
+      <h2>{{ place.name }}</h2>
+      <p>Realm: {{ place.realm }}</p>
+      <p>Population: {{ place.population }}</p>
+      <p>Safe: {{ place.safe }}</p>
+      <button @click="emit('delete', place.id)">Delete</button>
     </div>
 </template>
 
