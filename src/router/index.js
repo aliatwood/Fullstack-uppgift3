@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 // Importerar mina sidor
 import HomeView from '../views/HomeView.vue'
@@ -26,7 +26,7 @@ const routes = [
 
 // Skapar router
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes
 })
 
