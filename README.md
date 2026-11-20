@@ -1,5 +1,73 @@
-# Vue 3 + Vite
+# Middle-earth Explorer
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Beskrivning
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Middle-earth Explorer är en webbapplikation byggd med Vue.js där användaren kan utforska olika platser i Midgård från Sagan om ringen.
+
+Användaren kan se information om olika platser, lägga till nya platser och ta bort befintliga platser. Applikationen hämtar och hanterar information genom ett REST API.
+
+## Funktioner
+
+- Visa olika platser i Midgård.
+- Lägga till nya platser med hjälp av ett formulär.
+- Ta bort befintliga platser.
+- Visa information om varje plats, såsom namn, rike, befolkning och säkerhet.
+- Responsiv design som fungerar på dator, surfplatta och mobil.
+- Navigera mellan olika sidor med Vue Router.
+
+## Tekniker
+
+- Vue.js 3
+- JavaScript
+- HTML
+- CSS
+- Vue Router
+- REST API
+- Fetch API
+- Vite
+
+## API
+
+Applikationen använder ett REST API för att hämta, lägga till och ta bort information om platser i Midgård.
+
+API-adress: https://middle-earth-explorer-api.onrender.com/places
+
+Följande HTTP-metoder används:
+
+- GET – hämtar alla platser.
+- POST – lägger till en ny plats.
+- DELETE – tar bort en befintlig plats.
+
+## Installation
+
+Följ stegen nedan för att köra projektet lokalt:
+
+1. Klona projektet från GitHub:
+
+   ```bash
+   git clone https://github.com/aliatwood/Fullstack-uppgift3.git
+   ```
+
+2. Gå till projektmappen:
+
+   ```bash
+   cd Fullstack-uppgift3
+   ```
+
+3. Installera projektets beroenden:
+
+   ```bash
+   npm install
+   ```
+
+4. Starta utvecklingsservern:
+
+   ```bash
+   npm run dev
+   ```
+
+## Publicerad webbplats
+
+Den publicerade applikationen finns här:
+
+https://aliatwood.github.io/Fullstack-uppgift3/#/
