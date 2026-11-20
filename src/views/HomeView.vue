@@ -32,6 +32,7 @@ main{
     max-width: 90%;
     margin: 0 auto;
     padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 h1{
@@ -71,5 +72,36 @@ section{
     background-color: #38553D;
 }
 
+@media (max-width: 1023px){
+  .hero-paragraph{
+    font-size: 1.2rem;
+    max-width: 90%;
+  }
 
+  .hero-title{
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 600px){
+  main{
+    max-width: 95%;
+  }
+
+  h1{
+    font-size: 1.6rem;
+  }
+
+  .hero-title{
+    font-size: 1.2rem;
+  }
+
+  .hero-paragraph{
+    font-size: 1rem;
+  }
+
+  .goto-btn{
+    padding: 12px 18px;
+  }
+}
 </style>

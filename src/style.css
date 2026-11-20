@@ -24,3 +24,13 @@ h1, h2{
 footer{
     background-color: #1B211B;
 }
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}

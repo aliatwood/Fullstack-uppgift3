@@ -46,4 +46,36 @@ img{
     height: 60px;
     object-fit: contain;
 }
+
+@media (max-width: 1023px){
+  .nav-links{
+    width: 70%;
+    gap: 20px;
+  }
+
+  nav a{
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px){
+  nav{
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav-links{
+    width: 100%;
+    gap: 20px;
+  }
+
+  nav a{
+    font-size: 1rem;
+  }
+
+  img{
+    width: 50px;
+    height: 50px;
+  }
+}
 </style>

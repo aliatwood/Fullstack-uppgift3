@@ -56,4 +56,34 @@ p{
   font-size: 1.1rem;
 }
 
+@media (max-width: 1023px){
+  main{
+    max-width: 90%;
+  }
+
+  p{
+    max-width: 40em;
+  }
+}
+
+@media (max-width: 600px){
+  main{
+    max-width: 95%;
+    padding: 15px 10px;
+  }
+
+  h1{
+    font-size: 1.5rem;
+  }
+
+  h2{
+    font-size: 1.2rem;
+  }
+
+  p{
+    font-size: 1rem;
+    max-width: 100%;
+  }
+}
+
 </style>
